@@ -1,0 +1,35 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url(./gradient.png);
+}
+
+.data {
+    position: absolute;
+    width: 60%;
+    overflow: auto;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+h1 {
+    color: #000000;
+    font-style: italic;
+    font-size: 2.2em;
+    text-shadow: 0 0 1.5px #fff, 0 0 22px #fff, 0 0 52px #0073e6, 0 0 2px #0073e6, 0 0 2px #0073e6, 0 0 2px #0073e6, 0 0 1px #0073e6;
+}
+
+#bg {
+    padding: 5px;
+    border: 2px solid #000000;
+    border-radius: 25px;
+}
+
+p {
+    color: #7BA098;
+    font-size: 1.2em;
+}
